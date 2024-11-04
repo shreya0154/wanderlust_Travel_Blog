@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring the Alps - Wanderlust Blog</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #e8f0f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: #3b5998;
+            color: #fff;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        header nav {
+            margin-top: 0.5em;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #f7f7f7;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1000px;
+            margin: 2em auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 1em;
+            color: #2c3e50;
+        }
+
+        .card {
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 1.5em 0;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .solo {
+            background: #a2c2e2; /* Light Blue */
+        }
+
+        .family {
+            background: #f9c9b6; /* Light Coral */
+        }
+
+        .adventure {
+            background: #b4e4d9; /* Light Teal */
+        }
+
+        .highlights {
+            background: #e3d1f0; /* Light Purple */
+        }
+
+        .conclusion {
+            background: #f1b2b2; /* Light Red */
+        }
+
+        .card h3 {
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 1em;
+        }
+
+        .card ul li {
+            margin-bottom: 0.5em;
+            padding-left: 20px;
+            position: relative;
+            color: #333;
+        }
+
+        .card ul li:before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: #333; /* Dark checkmark */
+        }
+
+
+
+
+
+
+
+
+
+        .contact-section {
+        background: #f9f9f9;
+        padding: 2em;
+        margin: 2em 0;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .contact-section h2 {
+        margin-bottom: 1em;
+        color: #2c3e50;
+    }
+
+    .contact-section p {
+        margin-bottom: 1.5em;
+        color: #555;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 80%;
+        max-width: 500px;
+        margin-bottom: 1em;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .contact-form button {
+        padding: 0.7em 1.5em;
+        background: #3b5998;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .contact-form button:hover {
+        background: #2e4783;
+    }
+
+    .contact-info {
+        margin-top: 1.5em;
+        font-size: 0.9em;
+        color: #777;
+    }
+
+    .contact-info strong {
+        color: #333;
+    }
+
+
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5em 0;
+            background: #3b5998;
+            color: #fff;
+            margin-top: 2em;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        /* Media Queries */
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Wanderlust Blog</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Exploring the Majestic Alps</h2>
+        <p>The <strong>Alps</strong>, one of the most iconic mountain ranges in the world, stretch across eight countries, including France, Switzerland, Italy, and Austria. Renowned for their breathtaking beauty, diverse landscapes, and rich culture, the Alps offer a myriad of experiences for every type of traveler.</p>
+        
+        <div class="card solo">
+            <h3>Solo Trips in the Alps</h3>
+            <p>Traveling solo in the Alps can be a transformative experience. With miles of hiking trails, serene lakes, and peaceful mountain villages, the region provides the perfect backdrop for reflection and self-discovery.</p>
+            <ul>
+                <li><strong>Best Activities:</strong> Hiking the trails of the <em>Tour du Mont Blanc</em> or exploring the picturesque towns of <em>Zermatt</em> and <em>Chamonix</em>.</li>
+                <li><strong>Tips:</strong> Stay in cozy hostels or guesthouses, join guided tours to meet fellow travelers, and explore off-the-beaten-path destinations.</li>
+            </ul>
+        </div>
+
+        <div class="card family">
+            <h3>Family Trips in the Alps</h3>
+            <p>The Alps are a fantastic destination for families, offering numerous activities that cater to all ages.</p>
+            <ul>
+                <li><strong>Best Activities:</strong> Skiing in winter, hiking in summer, and exploring charming villages.</li>
+                <li><strong>Family-Friendly Destinations:</strong> <em>Garmisch-Partenkirchen</em> and <em>Lake Annecy</em>.</li>
+                <li><strong>Tips:</strong> Choose family-friendly accommodations and plan activities that everyone can enjoy.</li>
+            </ul>
+        </div>
+
+        <div class="card adventure">
+            <h3>Adventure Trips in the Alps</h3>
+            <p>For adrenaline junkies, the Alps offer an unparalleled playground for adventure sports.</p>
+            <ul>
+                <li><strong>Best Activities:</strong> Skiing, snowboarding, paragliding, mountain biking, and rock climbing.</li>
+                <li><strong>Adventure Hotspots:</strong> <em>Interlaken</em> and the <em>Dolomites</em>.</li>
+                <li><strong>Tips:</strong> Always check the weather and have the right gear; consider hiring a local guide.</li>
+            </ul>
+        </div>
+
+        <div class="card highlights">
+            <h3>Highlights of the Alps</h3>
+            <ul>
+                <li><strong>Natural Beauty:</strong> From the <em>Matterhorn</em> to <em>Lake Lucerne</em>.</li>
+                <li><strong>Cultural Experiences:</strong> Explore local cuisines, visit villages, and attend festivals.</li>
+                <li><strong>Wildlife Watching:</strong> Look for native wildlife, including chamois and ibex.</li>
+            </ul>
+        </div>
+
+        <div class="card conclusion">
+            <h3>Conclusion</h3>
+            <p>Whether you’re hiking through lush valleys or skiing down slopes, the Alps cater to every traveler’s needs. Plan your adventure according to your interests—be it a solo retreat, a family vacation, or an action-packed trip. The Alps await you with open arms, ready to create unforgettable memories!</p>
+        </div>
+    </div>
+
+
+
+        <!-- Contact Section -->
+<div class="contact-section"  id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, suggestions, or just want to share your travel experiences, feel free to reach out to us!</p>
+    <form action="#" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+        <p><strong>Email:</strong> info@wanderlustblog.com</p>
+        <p><strong>Phone:</strong> +1 (234) 567-8900</p>
+        <p><strong>Address:</strong> 123 Travel Lane, Wanderlust City, ST 12345</p>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Wanderlust Blog | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

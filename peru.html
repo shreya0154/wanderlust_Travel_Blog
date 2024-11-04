@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Peru - Wanderlust Blog</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #e8f0f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: #3b5998;
+            color: #fff;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        header nav {
+            margin-top: 0.5em;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #f7f7f7;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1000px;
+            margin: 2em auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 1em;
+            color: #2c3e50;
+        }
+
+        .card {
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 1.5em 0;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .solo {
+            background: #a2c2e2; /* Light Blue */
+        }
+
+        .family {
+            background: #f9c9b6; /* Light Coral */
+        }
+
+        .adventure {
+            background: #b4e4d9; /* Light Teal */
+        }
+
+        .highlights {
+            background: #e3d1f0; /* Light Purple */
+        }
+
+        .conclusion {
+            background: #f1b2b2; /* Light Red */
+        }
+
+        .card h3 {
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 1em;
+        }
+
+        .card ul li {
+            margin-bottom: 0.5em;
+            padding-left: 20px;
+            position: relative;
+            color: #333;
+        }
+
+        .card ul li:before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: #333; /* Dark checkmark */
+        }
+
+
+
+
+
+
+        .contact-section {
+            background: #f9f9f9;
+            padding: 2em;
+            margin: 2em 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 1em;
+            color: #2c3e50;
+        }
+
+        .contact-section p {
+            margin-bottom: 1.5em;
+            color: #555;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 80%;
+            max-width: 500px;
+            margin-bottom: 1em;
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 0.7em 1.5em;
+            background: #3b5998;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .contact-form button:hover {
+            background: #2e4783;
+        }
+
+        .contact-info {
+            margin-top: 1.5em;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .contact-info strong {
+            color: #333;
+        }
+
+
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5em 0;
+            background: #3b5998;
+            color: #fff;
+            margin-top: 2em;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        /* Media Queries */
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Wanderlust Blog</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Ancient Peru</h2>
+        <p><strong>Ancient Peru</strong> is a land steeped in history and mystery, renowned for its rich indigenous cultures, ancient civilizations, and stunning landscapes. The remnants of the Inca Empire, along with beautiful landscapes and vibrant local communities, make it a fascinating destination.</p>
+        
+        <div class="card solo">
+            <h3>Solo Trips</h3>
+            <p>For those seeking solitude and introspection, ancient ruins like Machu Picchu provide a serene backdrop. Engage in solo treks, meditate in ancient temples, and connect with local artisans.</p>
+            <ul>
+                <li><strong>Best Activities:</strong> Explore Machu Picchu or trek the Inca Trail.</li>
+                <li><strong>Tips:</strong> Plan your itinerary around less crowded times.</li>
+            </ul>
+        </div>
+
+        <div class="card family">
+            <h3>Family Trips</h3>
+            <p>Families can enjoy enriching experiences like exploring archaeological sites, learning about the Inca civilization, and participating in local festivals. Guided tours are available for all ages.</p>
+            <ul>
+                <li><strong>Best Activities:</strong> Visiting the Sacred Valley and local markets.</li>
+                <li><strong>Family-Friendly Destinations:</strong> <em>Cusco</em> and <em>Arequipa</em>.</li>
+                <li><strong>Tips:</strong> Choose tours that cater to families for a more engaging experience.</li>
+            </ul>
+        </div>
+
+        <div class="card adventure">
+            <h3>Adventure Trips</h3>
+            <p>Adventurers can tackle the famous Inca Trail, explore the Amazon rainforest, or engage in activities like sandboarding in Huacachina. Peru's diverse landscapes offer endless opportunities for outdoor fun.</p>
+            <ul>
+                <li><strong>Best Activities:</strong> Hiking, rafting, and exploring the Amazon.</li>
+                <li><strong>Adventure Hotspots:</strong> <em>Inca Trail</em> and <em>Nazca</em>.</li>
+                <li><strong>Tips:</strong> Ensure to book activities in advance, especially during peak seasons.</li>
+            </ul>
+        </div>
+
+        <div class="card highlights">
+            <h3>Attractions</h3>
+            <ul>
+                <li><strong>Historical Sites:</strong> Discover ancient wonders such as Machu Picchu and Sacsayhuamán.</li>
+                <li><strong>Natural Beauty:</strong> Explore the Amazon basin and the Andes mountains.</li>
+                <li><strong>Cultural Richness:</strong> Experience vibrant local markets and culinary heritage.</li>
+            </ul>
+        </div>
+
+        <div class="card conclusion">
+            <h3>Conclusion</h3>
+            <p>Ancient Peru invites you to step back in time and explore the legacy of the Incas amidst stunning natural beauty. Whether you're wandering through ancient ruins, trekking the Andean mountains, or savoring local delicacies, Peru promises a journey filled with discovery and wonder.</p>
+        </div>
+    </div>
+
+
+
+
+        <!-- Contact Section -->
+<div class="contact-section"  id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, suggestions, or just want to share your travel experiences, feel free to reach out to us!</p>
+    <form action="#" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+        <p><strong>Email:</strong> info@wanderlustblog.com</p>
+        <p><strong>Phone:</strong> +1 (234) 567-8900</p>
+        <p><strong>Address:</strong> 123 Travel Lane, Wanderlust City, ST 12345</p>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Wanderlust Blog | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
